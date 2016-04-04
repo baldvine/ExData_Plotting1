@@ -11,7 +11,7 @@ labText <- c("Thu","Fri","Sat")
 
 # Ok, we're ready for plotting:
 png(filename = "plot2.png", width=480, height=480, units="px")
-
+# Note that we simply use the indices as the x-axis:
 plot(x = powerConsumption$Global_active_power,
      main="", xlab="", ylab="Global Active Power (kilowatts)",
      type='n', xaxt="n")
