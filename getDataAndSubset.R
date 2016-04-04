@@ -1,6 +1,4 @@
 
-# setwd("./Coursera/Exploratory/Week1/ExData_Plotting1/")
-
 zipFileLoc <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 zipFileName <- "household_power_consumption.zip"
 # Download if necessary:
